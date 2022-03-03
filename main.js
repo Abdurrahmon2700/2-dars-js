@@ -171,6 +171,24 @@
 //   console.log('4');
 // }
 
+// if 16
+// let n =345;
+// let son1 = n%10;
+// let son2 = n/10;
+
+// let son3 =
+
+
+// let javob;
+// if (9<n && 99>n) {
+//   javob = son1+Math.floor(son2)
+//   console.log(javob)
+// }
+
+// if else 
+
+
+
 //  for par
 
 // for 1
@@ -307,4 +325,55 @@
 // for (let i=1; i<=a; i++) {
 //   g *=i
 //   console.log(g);
+// }
+
+// for 36
+
+// let n = 7;
+// let k = 2;
+// let javob = 0;
+
+// for (let i=0; i<=n; i++){
+//   javob += i**k;
+// }
+// console.log(javob)
+
+// for 37 
+
+// let n=5;
+// let javob=0;
+// for (let i=1; i<=n; i++) {
+//   javob +=i**i;
+// } 
+// console.log(javob);
+
+// for 38 
+// let n=5;
+// let a=0;
+// for (let i=0; i<=n; i++) {
+//   let k=1;
+//   for (let j=n; j>=i; j--) {
+//     k*=i;
+//   }
+//   a+=k
+// }
+// console.log(a);
+
+// for 39 
+// let a=1;
+// let b=5;
+// for (i=a+1; i<b; i++){
+//   for (j=1; j<=i; j++){
+//     console.log(i);
+//   }
+// }
+
+// for 40
+
+// let a=3;
+// let b=5;
+// for (i=a; i<=b; i++){
+//   for (j=a; j<=i; j++){
+//     console.log(i);
+//   }
 // }
