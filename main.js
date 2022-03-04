@@ -377,3 +377,115 @@
 //     console.log(i);
 //   }
 // }
+
+// problem part
+
+// problem 6
+// let son1 =-1;
+// let son2 = 4.5;
+// let son3 =0;
+// if (son1>=son2 && son1>=son3) {
+//   console.log(son1)
+// }
+// else if (son2>=son1 && son2>=son3){
+//   console.log(son2)
+// }
+// else {
+//   console.log(son3);
+// }
+
+// problem 7
+// let son1 = 5;
+// let son2 = 5;
+// let son3 =5;
+// let son4 = son1+son2;
+// if (son4>son1 && son4>son2 && son4>son3) {
+//   console.log("YES");
+// }
+// else {
+//   console.log('NO');
+// }
+
+// pronlem 8
+// let son1 =5;
+// let son2 = 5;
+// let son3 =5;
+
+// if (son1>son2 && son1>son3){
+//   console.log("Turli tomnli");
+// }
+// else if (son2>son1 && son2>son3){
+//   console.log("Turli tomnli");
+// }
+// else if (son1==son2 && son1==son3 && son2==son3) {
+//   console.log("Teng tomonli");
+// }
+// else if (son1==son2 || son2==son3 || son1==son3){
+//   console.log('Teng yonli');
+// }
+
+
+// problem 9
+// let son1 =5;
+// let son2 = 4;
+// let son3 =3;
+
+// if (son1>son2 && son1>son3){
+//   console.log("YES");
+// }
+// else if (son2>son1 && son2>son3){
+//   console.log("YES");
+// }
+// else if (son1==son2 && son1==son3 && son2==son3) {
+//   console.log("NO");
+// }
+// else if (son1==son2 || son2==son3 || son1==son3){
+//   console.log('NO');
+// }
+
+
+// problem 10
+
+// let son1 =2;
+// if  (son1==1){
+//   console.log("Bosh barmoq");
+// }
+// else if (son1==2){
+//   console.log("Ko'rsatkich barmoq");
+// }
+// else if (son1==3){
+//   console.log("O'rta barmoq");
+// }
+// else if (son1==4) {
+//   console.log("Nomsiz barmoq");
+// }
+// else if (son1==5) {
+//   console.log("Kichik barmoq");
+// }
+// else {
+//   console.log("Noto'g'ri ma'lumot kiritildi");
+// }
+
+// problem 11 
+// ????????
+
+// problem 12 
+// let son1=10;
+// let sum;
+// for (let i=1; i<=son1; i++) {
+//   sum = i+i
+//   console.log(sum);
+// }
+
+// problem 13
+// let son=30;
+// let sum=0;
+// for (let i=0; i<=son; i++) {
+//   if (i%2==0) {
+//     sum+=i;
+//   }
+// }
+// console.log(sum);
+
+// problem 14 
+
