@@ -488,4 +488,36 @@
 // console.log(sum);
 
 // problem 14 
+// ????
 
+// Problem #16
+
+// let son = 14502;
+// let sum = 0;
+// let son2 = 0;
+// while (son != 0) {
+//   sum = son % 10;
+
+//   if (sum > son2) {
+//     son2 = sum;
+//   }
+//   son = Math.floor(son / 10)
+// }
+
+// console.log(son2);
+
+// problram 17
+// let son = 3423765;
+// let sum = 7;
+// let count = 0;
+// let son2 = 0;
+// while (son != 0) {
+//   son2 = son % 10;
+
+//   if (son2 < sum) {
+//     count++;
+//   }
+//   son = Math.floor(son / 10)
+// }
+
+// console.log(count);
