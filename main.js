@@ -12,20 +12,17 @@
   
 
 // if 3
-
 // let a = 10;
 // let b = -4;
-
 // let s;
-
 // if (a==b) {
 //   s=0;
 // }
 // else if (a>b){
 //   s=a;
 // }
-
 // console.log(s);
+
 
 // if 4 
 // domla ishlab berishdi
@@ -53,7 +50,6 @@
 //   Fx = 0+(-3*x)
 // }
 // console.log(Fx);
-
 
 
 // if 7
@@ -85,7 +81,6 @@
 
 
 // if 9 
-
 // let temp = +prompt ("haroratni kiriting ")
 // if (temp<0) {
 //   console.log("Freezing")
@@ -106,8 +101,8 @@
 //   console.log("Very Hot");
 // }
 
-//  if 10 
 
+//  if 10 
 // let son = +prompt ('son: ')
 // if (son>0 && son%2!=0) {
 //   console.log("musbat toq son");
@@ -125,6 +120,7 @@
 //   console.log("son 0 ga teng");
 // }
 
+
 // if 11 
 // let son = +prompt ("son kiriting ");
 // if (son>1 && son<100 && son %2==0) {
@@ -140,11 +136,11 @@
 //   console.log("Uch xonali toq son");
 // }
 
-// if 12
 
-// let kub = +prompt ("kub sonini kiriting");
-// let s = kub**2;
-// console.log(s);
+// if 12
+let kub = +prompt ("kub sonini kiriting");
+let s = kub**2;
+console.log(s);
 
 
 // if 14
@@ -282,21 +278,35 @@
 //   console.log(S.toFixed(2));
 // }
 
-// for 16
+//  for 13
+// let son = 15;
+// let sum = 1.1;
+// for (let i = 0; i < son; i++) {
+//   console.log(sum.toFixed(1));
+//   sum += 0.1;
+// }
 
-// let n =10;
-// let a=5;
+// for 14 
+// let son = 10;
+// let sum=0;
+// for (let i=1; i<=son*2-1; i+=2) {
+//   sum += i;
+//   console.log(i);
+// }
+// console.log('hammasini + si '+sum);
 
+ 
+// for 15
+// let n = 5;
+// let a = 5;
 // for (i=0; i<n; i++) {
 //   b=a**i
 //   console.log(b);
 // }
 
 // for 17
-
 // let n =10;
 // let a=5;
-
 // for (i=0; i<n; i++) {
 //   b=a**i+a**i
 //   console.log(b);
@@ -467,7 +477,13 @@
 // }
 
 // problem 11 
-// ????????
+// let a = 5454;
+// let b = 0;
+// while (a) {
+//   b += a%10;
+//   a = Math.floor(a/10); 
+// }
+// console.log(b);
 
 // problem 12 
 // let son1=10;
@@ -488,7 +504,40 @@
 // console.log(sum);
 
 // problem 14 
-// ????
+// let son = 1222111;
+// let son1 = 0;
+// let son2 = 0
+
+// while (son != 0) {
+//   let sum = son % 10
+//   son = Math.floor(son / 10)
+//   console.log(son);
+//   if (sum == 1) {
+//     son1 += 1
+//   } else if (sum == 2) {
+//     son2 += 2
+//   }
+// }
+
+// if (son1 < son2) {
+//   console.log(son1);
+// } else if (son2 < son1) {
+//   console.log(son2);
+// } else {
+//   console.log(son2 / 2);
+// }
+
+
+// let son = 1122111;
+// let son1 = 0;
+// let son2 = 0;
+// let sum;
+// while (son!=0) {
+//   sum = son%10;
+//   son = Math.floor(son/10);
+// }
+// console.log(son,sum);
+
 
 // Problem #16
 
@@ -521,3 +570,4 @@
 // }
 
 // console.log(count);
+
